@@ -42,7 +42,7 @@
 | unicode-display_width | 2.1.0|  1.4.1|
 | virtus | 2.0.0|  1.0.5|  ~> 1.0|  "default"
 | watir | 7.1.0|  6.8.4|
-| web-console | 4.2.0|  3.7.0|  "development"
+| web-console | 4.2.0|  3.7.0|  |"development"
 | webmock | 3.14.0|  2.3.2|  ~> 2.3|  "development, test"|
 | wisper | 2.0.1|  1.6.1|  ~> 1.6|  "default"
 
