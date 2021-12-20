@@ -43,9 +43,10 @@
 | webmock |newest 3.14.0| installed 2.3.2| requested ~> 2.3| in groups "development| test"
 | wisper |newest 2.0.1| installed 1.6.1| requested ~> 1.6| in groups "default"
   
-Outdated gems included in the bundle:
+
 ### Bundle Minor Versions Outdated 
 | Gem | Current | Latest |  Requested | Groups | Older than 1 year
+|---|:----------:|:-------:|:-------:|:-------:|:-------:|
 | addressable |newest 2.8.0| installed 2.7.0| requested ~> 2.5| in groups "default"
 | aws-eventstream |newest 1.2.0| installed 1.1.1|
 | aws-sigv4 |newest 1.4.0| installed 1.2.3|
