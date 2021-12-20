@@ -14,8 +14,6 @@
 |thor            |       0.19.4 |  1.1.0 |          |
 |unicode-display_width |  1.4.1 |   2.1.0|          | 
 
-
-
 ### Bundle Minor Versions Outdated 
 | Gem | Latest | Current | Requested  | Groups | Older than 1 year
 |---|:----------:|:-------:|:-------:|:-------:|:-------:|
@@ -23,6 +21,10 @@
 |pronto  |0.9.5    |0.11.0 | ~> 0.9  |   test
 
 ### NPM Major & Minor Versions Outdated
-  
-### Dockerfile Linux Versions
-  
+| Package | Current | Wanted |  Latest | Location| Older than 1 year|
+|---|:----------:|:-------:|:-------:|:-------:|:-------:|
+|@types/node |  12.20.36 | 12.20.37  |  17.0.1 | thumbnail_generation
+|aws-sdk     |  2.1020.0 | 2.1046.0  |2.1046.0 | thumbnail_generation
+|aws-sdk-mock|     1.7.0 |    1.7.0  |   5.5.0 | thumbnail_generation
+|jest        |    27.3.1 |   27.4.5  |  27.4.5 | thumbnail_generation
+|sharp       |    0.29.2 |   0.29.3  |  0.29.3 | thumbnail_generation
