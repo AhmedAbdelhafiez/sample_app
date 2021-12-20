@@ -1,9 +1,12 @@
 # Ecom Feeds Dependency Audits
 
+
 ## December 2021
+
 
 ### Bundle Major Versions Outdated
 | Gem | Current | Latest |  Requested | Groups | Older than 1 year
+|---|:----------:|:-------:|:-------:|:-------:|:-------:|
 | actioncable |newest 7.0.0| installed 5.0.7.2|
 | actionmailer |newest 7.0.0| installed 5.0.7.2|
 | actionpack |newest 7.0.0| installed 5.0.7.2|
