@@ -5,7 +5,7 @@
 
 
 ### Bundle Major Versions Outdated
-| Gem | Current | Latest |  Requested | Groups | Older than 1 year
+| Gem | Latest | Current |  Requested | Groups | Older than 1 year
 |---|:----------:|:-------:|:-------:|:-------:|:-------:|
 | actioncable |newest 7.0.0| installed 5.0.7.2|
 | actionmailer |newest 7.0.0| installed 5.0.7.2|
@@ -45,7 +45,7 @@
   
 
 ### Bundle Minor Versions Outdated 
-| Gem | Current | Latest |  Requested | Groups | Older than 1 year
+| Gem | Latest | Current |  Requested | Groups | Older than 1 year
 |---|:----------:|:-------:|:-------:|:-------:|:-------:|
 | addressable |newest 2.8.0| installed 2.7.0| requested ~> 2.5| in groups "default"
 | aws-eventstream |newest 1.2.0| installed 1.1.1|
