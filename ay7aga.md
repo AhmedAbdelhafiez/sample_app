@@ -26,13 +26,13 @@
 | power_assert | 2.0.1|  1.2.0|
 | puma | 5.5.2|  3.12.6|  ~> 3.0|  "default"
 | rack-test | 1.1.0|  0.6.3|
-| rails | 7.0.0|  5.0.7.2|  ~> 5.0.0| >= 5.0.0.1|  "default"
+| rails | 7.0.0|  5.0.7.2|  ~> 5.0.0 >= 5.0.0.1|  "default"|
 | railties | 7.0.0|  5.0.7.2|
 | rainbow | 3.0.0|  2.2.2|
 | redis | 4.5.1|  3.3.5|  ~> 3.2|  "default"
 | rspec-rails | 5.0.2|  3.9.1|  ~> 3.5|  "test"
-| rubocop | 1.23.0|  0.62.0|  ~> 0.62.0|  "development| test"
-| rubocop-rspec | 2.6.0|  1.35.0|  ~> 1.15|  "development| test"
+| rubocop | 1.23.0|  0.62.0|  ~> 0.62.0|  "development, test"|
+| rubocop-rspec | 2.6.0|  1.35.0|  ~> 1.15|  "development, test"|
 | ruby-kafka | 1.4.0|  0.5.5|  ~> 0.5.3|  "default"
 | rugged | 1.3.0|  0.99.0|
 | selenium-webdriver | 4.1.0|  3.142.7|
@@ -43,7 +43,7 @@
 | virtus | 2.0.0|  1.0.5|  ~> 1.0|  "default"
 | watir | 7.1.0|  6.8.4|
 | web-console | 4.2.0|  3.7.0|  "development"
-| webmock | 3.14.0|  2.3.2|  ~> 2.3|  "development| test"
+| webmock | 3.14.0|  2.3.2|  ~> 2.3|  "development, test"|
 | wisper | 2.0.1|  1.6.1|  ~> 1.6|  "default"
 
 
@@ -52,10 +52,10 @@
 |---|:----------:|:-------:|:-------:|:-------:|:-------:|
 | addressable | 2.8.0|  2.7.0|  ~> 2.5|  "default"
 | avro | 1.11.0|  1.10.0|
-| avro_turf | 1.5.0|  1.3.0|  "default"
+| avro_turf | 1.5.0|  1.3.0|  | "default"|
 | aws-eventstream | 1.2.0|  1.1.0|
 | aws-sigv4 | 1.4.0|  1.2.2|
-| ddtrace | 0.54.1|  0.7.2|  ~> 0.7.0|  "production| staging"
+| ddtrace | 0.54.1|  0.7.2|  ~> 0.7.0|  "production, staging"|
 | docile | 1.4.0|  1.3.2|
 | excon | 0.89.0|  0.78.0|
 | faraday | 1.8.0|  1.1.0|
@@ -77,7 +77,7 @@
 | octokit | 4.21.0|  4.19.0|
 | parallel | 1.21.0|  1.20.1|
 | pronto | 0.11.0|  0.9.5|  ~> 0.9|  "test"
-| pronto-rubocop | 0.11.0|  0.9.0 959f2f0|  "test"
+| pronto-rubocop | 0.11.0|  0.9.0|  |"test"
 | rack-protection | 2.1.0|  2.0.0|
 | rails-html-sanitizer | 1.4.2|  1.3.0|
 | rb-fsevent | 0.11.0|  0.10.4|
@@ -88,11 +88,11 @@
 | rspec-support | 3.10.3|  3.9.4|
 | rspec_junit_formatter | 0.4.1|  0.3.0|  ~> 0.3.0|  "test"
 | ruby-progressbar | 1.11.0|  1.10.1|
-| simplecov | 0.21.2|  0.19.1|  "test"
+| simplecov | 0.21.2|  0.19.1|  |"test"|
 | sinatra | 2.1.0|  2.0.0|  = 2.0|  "test"
 | sprockets-rails | 3.4.2|  3.2.2|
-| test-unit | 3.5.3|  3.3.7|  "development| test"
-| watir_angular | 0.4.1|  0.2.0|  "default"
+| test-unit | 3.5.3|  3.3.7|  | "development, test"
+| watir_angular | 0.4.1|  0.2.0|  |"default"
 | watir_fetcher | 0.3.0|  0.2.3|  ~> 0.2.1|  "default"
 | websocket-driver | 0.7.5|  0.6.5|
 
