@@ -4,6 +4,7 @@
 
 ### NPM Major & Minor Versions Outdated
 | Package | Current | Wanted |  Latest | Location| Older than 1 year|
+|---|:----------:|:-------:|:-------:|:-------:|:-------:|
 |@types/jest               |  20.0.8  | 20.0.8 |         27.0.3 | plindexer-adapter
 |@types/node               | 7.10.14  |7.10.14 |         17.0.2 | plindexer-adapter
 |@types/webpack            |  2.2.16  | 2.2.16 |         5.28.0 | plindexer-adapter
@@ -18,6 +19,6 @@
 |tslint                    |  5.20.1  | 5.20.1 |          6.1.3 | plindexer-adapter
 |typescript                |   2.9.2  |  2.9.2 |          4.5.4 | plindexer-adapter
 
- 
 ### Dockerfile Linux Versions
 `Debian GNU/Linux 9 (stretch)`
+  
