@@ -233,7 +233,7 @@
 | factory_girl | 4.9.0|  4.4.0|
 | factory_girl_rails | 4.9.0|  4.4.1|  ~> 4.4.1|  development, test
 | ffi | 1.15.4|  1.13.1|
-| flipp-ruby-kafka | 2.4.1|  2.3.2|  default
+| flipp-ruby-kafka | 2.4.1|  2.3.2|  | default
 | fog-aliyun | 0.3.19|  0.1.0|
 | fog-cloudatcost | 0.4.0|  0.1.2|
 | fog-dynect | 0.5.0|  0.0.3|
