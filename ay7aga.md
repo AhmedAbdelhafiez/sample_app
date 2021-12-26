@@ -22,7 +22,7 @@
 | byebug | 11.1.3|  9.0.6|  ~> 9.0.6|  development, test
 | childprocess | 4.1.0|  0.9.0|
 | coffee-rails | 5.0.0|  4.1.0|  ~> 4.1.0|  default
-| data_migrate | 3.0.1|  1.2.1 a0dd2bb|  default
+| data_migrate | 3.0.1|  1.2.1 a0dd2bb|  |  default
 | debug_inspector | 1.1.0|  0.0.2|
 | dogstatsd-ruby | 5.3.2|  3.0.0|
 | faraday | 1.8.0|  0.15.2|
@@ -71,7 +71,7 @@
 | terminal-table | 3.0.2|  1.8.0|
 | thor | 1.1.0|  0.19.4|
 | tzinfo | 2.0.4|  1.2.8|
-| uglifier | 4.2.0|  2.7.2|  default
+| uglifier | 4.2.0|  2.7.2|     | default
 | unicode-display_width | 2.1.0|  1.4.0|
 | watir | 7.1.0|  6.17.0|  ~> 6.17|  default
 
@@ -79,10 +79,10 @@
 |Gem                   |Current|Latest |Requested|Groups      |Older than 1 year|
 |----------------------|-------|-------|---------|------------|------|
 | addressable | 2.8.0|  2.5.2|
-| amatch | 0.4.0|  0.3.0|  default
-| annotate | 2.7.2|  2.6.0.beta8 bb55946|  development
+| amatch | 0.4.0|  0.3.0|      |default
+| annotate | 2.7.2|  2.6.0.beta8 bb55946|    |development
 | avro | 1.11.0|  1.9.2|
-| awesome_print | 1.9.2|  1.6.1|  development
+| awesome_print | 1.9.2|  1.6.1|    | development
 | aws-partitions | 1.543.0|  1.70.0|
 | aws-sdk | 3.1.0|  3.0.1| ~> 3.0|  default
 | aws-sdk-acm | 1.49.0|  1.3.0|
@@ -221,17 +221,17 @@
 | aws-sigv2 | 1.1.0|  1.0.1|
 | aws-sigv4 | 1.4.0|  1.0.2|
 | coffee-script-source | 1.12.2|  1.10.0|
-| daemons | 1.4.1|  1.2.3|  ~> 1.2| >= 1.2.3|  default
+| daemons | 1.4.1|  1.2.3|  ~> 1.2 >= 1.2.3|  default
 | ddtrace | 0.54.1|  0.43.0| ~> 0.11|  default
 | deimos-ruby | 1.12.3|  1.8.4|
 | descriptive_statistics | 2.5.1|  2.4.0|  ~> 2.4.0|  default
 | diff-lcs | 1.5.0|  1.3|
-| diffy | 3.4.0|  3.0.7|  ~> 3.0.3|  development| test
+| diffy | 3.4.0|  3.0.7|  ~> 3.0.3|  development, test
 | docile | 1.4.0|  1.1.5|
 | excon | 0.89.0|  0.78.1|
 | execjs | 2.8.1|  2.6.0|
 | factory_girl | 4.9.0|  4.4.0|
-| factory_girl_rails | 4.9.0|  4.4.1|  ~> 4.4.1|  development| test
+| factory_girl_rails | 4.9.0|  4.4.1|  ~> 4.4.1|  development, test
 | ffi | 1.15.4|  1.13.1|
 | flipp-ruby-kafka | 2.4.1|  2.3.2|  default
 | fog-aliyun | 0.3.19|  0.1.0|
@@ -248,7 +248,7 @@
 | jquery-rails | 4.4.0|  4.0.5|  default
 | loofah | 2.13.0|  2.7.0|
 | memoist | 0.16.2|  0.9.3|  ~> 0.9.3|  default
-| mini_magick | 4.11.0|  4.3.6|  ~> 4.3| >= 4.3.6|  default
+| mini_magick | 4.11.0|  4.3.6|  ~> 4.3 >= 4.3.6|  default
 | mini_mime | 1.1.2|  1.0.2|
 | mini_portile2 | 2.7.1|  2.4.0|
 | minitest | 5.15.0|  5.14.2|
@@ -257,7 +257,7 @@
 | multipart-post | 2.1.1|  2.0.0|
 | mysql2 | 0.5.3|  0.3.20|   0.3.20|  default
 | net-ftp-list | 3.3.0|  3.2.8|  ~> 3.2.0|  default
-| nokogiri | 1.12.5|  1.10.10|  ~> 1.6| >= 1.6.6.2|  default
+| nokogiri | 1.12.5|  1.10.10|  ~> 1.6 >= 1.6.6.2|  default
 | oauth | 0.5.8|  0.4.7|  default
 | octokit | 4.21.0|  4.9.0|
 | parallel | 1.21.0|  1.12.1|
@@ -280,13 +280,13 @@
 | sneaky-save | 0.1.3|  0.0.6|  ~> 0.0.2|  default
 | sprockets-rails | 3.4.2|  3.2.2|
 | strip_attributes | 1.12.0|  1.6.0|  ~> 1.6.0|  default
-| test-unit | 3.5.3|  3.1.5|  ~> 3.1| >= 3.1.5|  default
-| timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development| test
+| test-unit | 3.5.3|  3.1.5|  ~> 3.1 >= 3.1.5|  default
+| timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development, test
 | tins | 1.29.1|  1.7.0|
 | trollop | 2.9.10|  2.1.2|
 | tzinfo-data | 1.2021.5|  1.2018.3|  default
-| uuidtools | 2.2.0|  2.1.5|  ~> 2.1| >= 2.1.5|  default
-| will_paginate | 3.3.1|  3.0.7|  ~> 3.0| >= 3.0.7|  default
+| uuidtools | 2.2.0|  2.1.5|  ~> 2.1, >= 2.1.5|  default
+| will_paginate | 3.3.1|  3.0.7|  ~> 3.0, >= 3.0.7|  default
 | yard | 0.9.27|  0.8.5.2|  ~> 0.8.5.2|  development
 
 ### Dockerfile Linux Versions
