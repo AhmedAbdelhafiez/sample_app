@@ -79,11 +79,12 @@
 |Gem                   |Current|Latest |Requested|Groups      |Older than 1 year|
 |----------------------|-------|-------|---------|------------|------|
 | addressable | 2.8.0|  2.5.2|
-| amatch | 0.4.0|  0.3.0|   |default
-| annotate | 2.7.2|  2.6.0.beta8 bb55946|  |development
-| awesome_print | 1.9.2|  1.6.1|  |development
-| aws-partitions | 1.543.0|  1.68.0|
-| aws-sdk | 3.1.0|  3.0.1|  ~> 3.0|  default
+| amatch | 0.4.0|  0.3.0|  default
+| annotate | 2.7.2|  2.6.0.beta8 bb55946|  development
+| avro | 1.11.0|  1.9.2|
+| awesome_print | 1.9.2|  1.6.1|  development
+| aws-partitions | 1.543.0|  1.70.0|
+| aws-sdk | 3.1.0|  3.0.1| requested ~> 3.0|  default
 | aws-sdk-acm | 1.49.0|  1.3.0|
 | aws-sdk-alexaforbusiness | 1.54.0|  1.1.0|
 | aws-sdk-apigateway | 1.73.0|  1.9.0|
@@ -131,7 +132,7 @@
 | aws-sdk-dynamodbstreams | 1.36.0|  1.0.1|
 | aws-sdk-ec2 | 1.288.0|  1.29.0|
 | aws-sdk-ecr | 1.52.0|  1.3.0|
-| aws-sdk-ecs | 1.93.0|  1.8.0|
+| aws-sdk-ecs | 1.93.0|  1.10.0|
 | aws-sdk-efs | 1.50.0|  1.0.1|
 | aws-sdk-elasticache | 1.68.0|  1.3.0|
 | aws-sdk-elasticbeanstalk | 1.49.0|  1.3.0|
@@ -150,7 +151,7 @@
 | aws-sdk-iam | 1.65.0|  1.3.0|
 | aws-sdk-importexport | 1.33.0|  1.0.1|
 | aws-sdk-inspector | 1.41.0|  1.3.0|
-| aws-sdk-iot | 1.82.0|  1.3.0|
+| aws-sdk-iot | 1.82.0|  1.4.0|
 | aws-sdk-iotdataplane | 1.36.0|  1.0.1|
 | aws-sdk-iotjobsdataplane | 1.34.0|  1.0.0|
 | aws-sdk-kinesis | 1.39.0|  1.2.0|
@@ -163,28 +164,28 @@
 | aws-sdk-lambdapreview | 1.33.0|  1.0.1|
 | aws-sdk-lex | 1.43.0|  1.3.0|
 | aws-sdk-lexmodelbuildingservice | 1.55.0|  1.5.0|
-| aws-sdk-lightsail | 1.61.0|  1.3.0|
+| aws-sdk-lightsail | 1.61.0|  1.4.0|
 | aws-sdk-machinelearning | 1.35.0|  1.0.1|
 | aws-sdk-marketplacecommerceanalytics | 1.39.0|  1.0.1|
 | aws-sdk-marketplaceentitlementservice | 1.33.0|  1.0.1|
 | aws-sdk-marketplacemetering | 1.41.0|  1.0.1|
 | aws-sdk-mediaconvert | 1.82.0|  1.1.0|
-| aws-sdk-medialive | 1.82.0|  1.2.0|
+| aws-sdk-medialive | 1.82.0|  1.3.0|
 | aws-sdk-mediapackage | 1.49.0|  1.0.0|
 | aws-sdk-mediastore | 1.39.0|  1.1.0|
 | aws-sdk-mediastoredata | 1.36.0|  1.1.0|
-| aws-sdk-migrationhub | 1.38.0|  1.0.1|
+| aws-sdk-migrationhub | 1.38.0|  1.1.0|
 | aws-sdk-mobile | 1.33.0|  1.0.0|
 | aws-sdk-mq | 1.44.0|  1.0.0|
 | aws-sdk-mturk | 1.38.0|  1.2.0|
 | aws-sdk-opsworks | 1.39.0|  1.2.0|
 | aws-sdk-opsworkscm | 1.50.0|  1.2.0|
 | aws-sdk-organizations | 1.66.0|  1.7.0|
-| aws-sdk-pinpoint | 1.63.0|  1.2.0|
+| aws-sdk-pinpoint | 1.63.0|  1.3.0|
 | aws-sdk-polly | 1.51.0|  1.4.0|
 | aws-sdk-pricing | 1.35.0|  1.0.0|
-| aws-sdk-rds | 1.134.0|  1.13.0|
-| aws-sdk-redshift | 1.76.0|  1.1.0|
+| aws-sdk-rds | 1.134.0|  1.14.0|
+| aws-sdk-redshift | 1.76.0|  1.2.0|
 | aws-sdk-rekognition | 1.63.0|  1.2.0|
 | aws-sdk-resourcegroups | 1.43.0|  1.0.0|
 | aws-sdk-resourcegroupstaggingapi | 1.45.0|  1.0.1|
@@ -196,7 +197,7 @@
 | aws-sdk-sagemakerruntime | 1.40.0|  1.0.0|
 | aws-sdk-serverlessapplicationrepository | 1.41.0|  1.1.0|
 | aws-sdk-servicecatalog | 1.67.0|  1.4.0|
-| aws-sdk-servicediscovery | 1.44.0|  1.1.0|
+| aws-sdk-servicediscovery | 1.44.0|  1.2.0|
 | aws-sdk-ses | 1.45.0|  1.6.0|
 | aws-sdk-shield | 1.46.0|  1.1.0|
 | aws-sdk-simpledb | 1.33.0|  1.0.1|
@@ -211,7 +212,6 @@
 | aws-sdk-swf | 1.34.0|  1.0.1|
 | aws-sdk-transcribeservice | 1.68.0|  1.0.0|
 | aws-sdk-translate | 1.41.0|  1.0.0|
-| aws-sdk-v1 | 1.67.0|  1.66.0|     |default
 | aws-sdk-waf | 1.45.0|  1.4.0|
 | aws-sdk-wafregional | 1.46.0|  1.4.0|
 | aws-sdk-workdocs | 1.37.0|  1.1.0|
@@ -221,16 +221,19 @@
 | aws-sigv2 | 1.1.0|  1.0.1|
 | aws-sigv4 | 1.4.0|  1.0.2|
 | coffee-script-source | 1.12.2|  1.10.0|
-| daemons | 1.4.1|  1.2.3|  ~> 1.2 >= 1.2.3|  default
-| ddtrace | 0.54.1|  0.12.0|  ~> 0.11|  default
-| descriptive_statistics | 2.5.1|  2.4.0|  ~> 2.4.0|  default
+| daemons | 1.4.1|  1.2.3| requested ~> 1.2| >= 1.2.3|  default
+| ddtrace | 0.54.1|  0.43.0| requested ~> 0.11|  default
+| deimos-ruby | 1.12.3|  1.8.4|
+| descriptive_statistics | 2.5.1|  2.4.0| requested ~> 2.4.0|  default
 | diff-lcs | 1.5.0|  1.3|
-| diffy | 3.4.0|  3.0.7|  ~> 3.0.3|  development, staging, qa
+| diffy | 3.4.0|  3.0.7| requested ~> 3.0.3|  development| test
 | docile | 1.4.0|  1.1.5|
-| excon | 0.89.0|  0.49.0|
+| excon | 0.89.0|  0.78.1|
 | execjs | 2.8.1|  2.6.0|
 | factory_girl | 4.9.0|  4.4.0|
-| factory_girl_rails | 4.9.0|  4.4.1|  ~> 4.4.1|  development, staging, qa
+| factory_girl_rails | 4.9.0|  4.4.1| requested ~> 4.4.1|  development| test
+| ffi | 1.15.4|  1.13.1|
+| flipp-ruby-kafka | 2.4.1|  2.3.2|  default
 | fog-aliyun | 0.3.19|  0.1.0|
 | fog-cloudatcost | 0.4.0|  0.1.2|
 | fog-dynect | 0.5.0|  0.0.3|
@@ -239,53 +242,52 @@
 | fog-powerdns | 0.2.0|  0.1.1|
 | formatador | 0.3.0|  0.2.5|
 | gitlab | 4.18.0|  4.3.0|
-| httparty | 0.20.0|  0.13.7|  ~> 0.13.7|  default
-| jbuilder | 2.11.5|  2.4.1|  ~> 2.4.1|  default
+| headless | 2.3.1|  2.2.2| requested ~> 2.2.2|  default
+| httparty | 0.20.0|  0.13.7| requested ~> 0.13.7|  default
 | jmespath | 1.4.0|  1.3.1|
-| jquery-rails | 4.4.0|  4.0.5| | default
+| jquery-rails | 4.4.0|  4.0.5|  default
 | loofah | 2.13.0|  2.7.0|
-| memoist | 0.16.2|  0.9.3|  ~> 0.9.3|  default
-| mini_magick | 4.11.0|  4.3.6|  ~> 4.3 >= 4.3.6|  default
+| memoist | 0.16.2|  0.9.3| requested ~> 0.9.3|  default
+| mini_magick | 4.11.0|  4.3.6| requested ~> 4.3| >= 4.3.6|  default
 | mini_mime | 1.1.2|  1.0.2|
 | mini_portile2 | 2.7.1|  2.4.0|
 | minitest | 5.15.0|  5.14.2|
-| msgpack | 1.4.2|  1.2.4|
-| multi_json | 1.15.0|  1.11.2|
+| msgpack | 1.4.2|  1.3.3|
 | multi_xml | 0.6.0|  0.5.5|
 | multipart-post | 2.1.1|  2.0.0|
-| mysql2 | 0.5.3|  0.3.20|  = 0.3.20|  default
-| net-ftp-list | 3.3.0|  3.2.8|  ~> 3.2.0|  default
-| nokogiri | 1.12.5|  1.10.10|
-| oauth | 0.5.8|  0.4.7|     |default
+| mysql2 | 0.5.3|  0.3.20| requested = 0.3.20|  default
+| net-ftp-list | 3.3.0|  3.2.8| requested ~> 3.2.0|  default
+| nokogiri | 1.12.5|  1.10.10| requested ~> 1.6| >= 1.6.6.2|  default
+| oauth | 0.5.8|  0.4.7|  default
 | octokit | 4.21.0|  4.9.0|
 | parallel | 1.21.0|  1.12.1|
 | path_expander | 1.1.0|  1.0.3|
-| pronto | 0.11.0|  0.9.5|  ~> 0.9|  default
-| pronto-flay | 0.11.1|  0.9.0|   |default
-| pronto-rubocop | 0.11.0|  0.9.0 8e6f0be|   |default
+| pronto | 0.11.0|  0.9.5|  default
+| pronto-flay | 0.11.1|  0.9.0|  default
+| pronto-rubocop | 0.11.1|  0.9.1|  default
 | rails-html-sanitizer | 1.4.2|  1.3.0|
 | rspec-core | 3.10.1|  3.5.4|
 | rspec-expectations | 3.10.1|  3.5.0|
 | rspec-mocks | 3.10.2|  3.5.0|
 | rspec-support | 3.10.3|  3.5.0|
-| rspec_junit_formatter | 0.4.1|  0.3.0|  ~> 0.3.0|  test
+| rspec_junit_formatter | 0.4.1|  0.3.0| requested ~> 0.3.0|  test
 | ruby-progressbar | 1.11.0|  1.10.0|
 | ruby_parser | 3.18.1|  3.11.0|
 | sass | 3.7.4|  3.4.19|
 | sexp_processor | 4.16.0|  4.11.0|
-| simplecov | 0.21.2|  0.10.0|  ~> 0.10.0|  default
+| simplecov | 0.21.2|  0.10.0| requested ~> 0.10.0|  default
 | simplecov-html | 0.12.3|  0.10.0|
-| sneaky-save | 0.1.3|  0.0.6|  ~> 0.0.2|  default
+| sneaky-save | 0.1.3|  0.0.6| requested ~> 0.0.2|  default
 | sprockets-rails | 3.4.2|  3.2.2|
-| strip_attributes | 1.12.0|  1.6.0|  ~> 1.6.0|  default
-| test-unit | 3.5.3|  3.1.5|  ~> 3.1 >= 3.1.5|  default
-| timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development, staging, qa
+| strip_attributes | 1.12.0|  1.6.0| requested ~> 1.6.0|  default
+| test-unit | 3.5.3|  3.1.5| requested ~> 3.1| >= 3.1.5|  default
+| timecop | 0.9.4|  0.5.9.2| requested ~> 0.5.8|  development| test
 | tins | 1.29.1|  1.7.0|
 | trollop | 2.9.10|  2.1.2|
-| tzinfo-data | 1.2021.5|  1.2018.4|    | default
-| uuidtools | 2.2.0|  2.1.5|  ~> 2.1, >= 2.1.5|  default
-| will_paginate | 3.3.1|  3.0.7|  ~> 3.0, >= 3.0.7|  default
-| yard | 0.9.27|  0.8.5.2|  ~> 0.8.5.2|  development
+| tzinfo-data | 1.2021.5|  1.2018.3|  default
+| uuidtools | 2.2.0|  2.1.5| requested ~> 2.1| >= 2.1.5|  default
+| will_paginate | 3.3.1|  3.0.7| requested ~> 3.0| >= 3.0.7|  default
+| yard | 0.9.27|  0.8.5.2| requested ~> 0.8.5.2|  development
 
 ### Dockerfile Linux Versions
 `Debian GNU/Linux 9 (stretch)`
