@@ -71,9 +71,9 @@
 |Gem                   |Current|Latest |Requested|Groups      |Older than 1 year|
 |----------------------|-------|-------|---------|------------|------|
 | addressable | 2.8.0|  2.5.2|
-| amatch | 0.4.0|  0.3.0|  default
-| annotate | 2.7.2|  2.6.0.beta8 bb55946|  development
-| awesome_print | 1.9.2|  1.6.1|  development
+| amatch | 0.4.0|  0.3.0|   |default
+| annotate | 2.7.2|  2.6.0.beta8 bb55946|  |development
+| awesome_print | 1.9.2|  1.6.1|  |development
 | aws-partitions | 1.543.0|  1.68.0|
 | aws-sdk | 3.1.0|  3.0.1|  ~> 3.0|  default
 | aws-sdk-acm | 1.49.0|  1.3.0|
@@ -203,7 +203,7 @@
 | aws-sdk-swf | 1.34.0|  1.0.1|
 | aws-sdk-transcribeservice | 1.68.0|  1.0.0|
 | aws-sdk-translate | 1.41.0|  1.0.0|
-| aws-sdk-v1 | 1.67.0|  1.66.0|  default
+| aws-sdk-v1 | 1.67.0|  1.66.0|     |default
 | aws-sdk-waf | 1.45.0|  1.4.0|
 | aws-sdk-wafregional | 1.46.0|  1.4.0|
 | aws-sdk-workdocs | 1.37.0|  1.1.0|
@@ -213,16 +213,16 @@
 | aws-sigv2 | 1.1.0|  1.0.1|
 | aws-sigv4 | 1.4.0|  1.0.2|
 | coffee-script-source | 1.12.2|  1.10.0|
-| daemons | 1.4.1|  1.2.3|  ~> 1.2| >= 1.2.3|  default
+| daemons | 1.4.1|  1.2.3|  ~> 1.2 >= 1.2.3|  default
 | ddtrace | 0.54.1|  0.12.0|  ~> 0.11|  default
 | descriptive_statistics | 2.5.1|  2.4.0|  ~> 2.4.0|  default
 | diff-lcs | 1.5.0|  1.3|
-| diffy | 3.4.0|  3.0.7|  ~> 3.0.3|  development| staging| qa
+| diffy | 3.4.0|  3.0.7|  ~> 3.0.3|  development, staging, qa
 | docile | 1.4.0|  1.1.5|
 | excon | 0.89.0|  0.49.0|
 | execjs | 2.8.1|  2.6.0|
 | factory_girl | 4.9.0|  4.4.0|
-| factory_girl_rails | 4.9.0|  4.4.1|  ~> 4.4.1|  development| staging| qa
+| factory_girl_rails | 4.9.0|  4.4.1|  ~> 4.4.1|  development, staging, qa
 | fog-aliyun | 0.3.19|  0.1.0|
 | fog-cloudatcost | 0.4.0|  0.1.2|
 | fog-dynect | 0.5.0|  0.0.3|
@@ -234,10 +234,10 @@
 | httparty | 0.20.0|  0.13.7|  ~> 0.13.7|  default
 | jbuilder | 2.11.5|  2.4.1|  ~> 2.4.1|  default
 | jmespath | 1.4.0|  1.3.1|
-| jquery-rails | 4.4.0|  4.0.5|  default
+| jquery-rails | 4.4.0|  4.0.5| | default
 | loofah | 2.13.0|  2.7.0|
 | memoist | 0.16.2|  0.9.3|  ~> 0.9.3|  default
-| mini_magick | 4.11.0|  4.3.6|  ~> 4.3| >= 4.3.6|  default
+| mini_magick | 4.11.0|  4.3.6|  ~> 4.3 >= 4.3.6|  default
 | mini_mime | 1.1.2|  1.0.2|
 | mini_portile2 | 2.7.1|  2.4.0|
 | minitest | 5.15.0|  5.14.2|
@@ -248,13 +248,13 @@
 | mysql2 | 0.5.3|  0.3.20|  = 0.3.20|  default
 | net-ftp-list | 3.3.0|  3.2.8|  ~> 3.2.0|  default
 | nokogiri | 1.12.5|  1.10.10|
-| oauth | 0.5.8|  0.4.7|  default
+| oauth | 0.5.8|  0.4.7|     |default
 | octokit | 4.21.0|  4.9.0|
 | parallel | 1.21.0|  1.12.1|
 | path_expander | 1.1.0|  1.0.3|
 | pronto | 0.11.0|  0.9.5|  ~> 0.9|  default
-| pronto-flay | 0.11.1|  0.9.0|  default
-| pronto-rubocop | 0.11.0|  0.9.0 8e6f0be|  default
+| pronto-flay | 0.11.1|  0.9.0|   |default
+| pronto-rubocop | 0.11.0|  0.9.0 8e6f0be|   |default
 | rails-html-sanitizer | 1.4.2|  1.3.0|
 | rspec-core | 3.10.1|  3.5.4|
 | rspec-expectations | 3.10.1|  3.5.0|
@@ -270,13 +270,13 @@
 | sneaky-save | 0.1.3|  0.0.6|  ~> 0.0.2|  default
 | sprockets-rails | 3.4.2|  3.2.2|
 | strip_attributes | 1.12.0|  1.6.0|  ~> 1.6.0|  default
-| test-unit | 3.5.3|  3.1.5|  ~> 3.1| >= 3.1.5|  default
-| timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development| staging| qa
+| test-unit | 3.5.3|  3.1.5|  ~> 3.1 >= 3.1.5|  default
+| timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development, staging, qa
 | tins | 1.29.1|  1.7.0|
 | trollop | 2.9.10|  2.1.2|
 | tzinfo-data | 1.2021.5|  1.2018.4|  default
-| uuidtools | 2.2.0|  2.1.5|  ~> 2.1| >= 2.1.5|  default
-| will_paginate | 3.3.1|  3.0.7|  ~> 3.0| >= 3.0.7|  default
+| uuidtools | 2.2.0|  2.1.5|  ~> 2.1, >= 2.1.5|  default
+| will_paginate | 3.3.1|  3.0.7|  ~> 3.0, >= 3.0.7|  default
 | yard | 0.9.27|  0.8.5.2|  ~> 0.8.5.2|  development
 
 ### Dockerfile Linux Versions
