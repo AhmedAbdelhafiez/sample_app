@@ -245,7 +245,7 @@
 | headless | 2.3.1|  2.2.2|  ~> 2.2.2|  default
 | httparty | 0.20.0|  0.13.7|  ~> 0.13.7|  default
 | jmespath | 1.4.0|  1.3.1|
-| jquery-rails | 4.4.0|  4.0.5|  default
+| jquery-rails | 4.4.0|  4.0.5|    | default
 | loofah | 2.13.0|  2.7.0|
 | memoist | 0.16.2|  0.9.3|  ~> 0.9.3|  default
 | mini_magick | 4.11.0|  4.3.6|  ~> 4.3 >= 4.3.6|  default
@@ -258,13 +258,13 @@
 | mysql2 | 0.5.3|  0.3.20|   0.3.20|  default
 | net-ftp-list | 3.3.0|  3.2.8|  ~> 3.2.0|  default
 | nokogiri | 1.12.5|  1.10.10|  ~> 1.6 >= 1.6.6.2|  default
-| oauth | 0.5.8|  0.4.7|  default
+| oauth | 0.5.8|  0.4.7|     | default
 | octokit | 4.21.0|  4.9.0|
 | parallel | 1.21.0|  1.12.1|
 | path_expander | 1.1.0|  1.0.3|
-| pronto | 0.11.0|  0.9.5|  default
-| pronto-flay | 0.11.1|  0.9.0|  default
-| pronto-rubocop | 0.11.1|  0.9.1|  default
+| pronto | 0.11.0|  0.9.5|     |default
+| pronto-flay | 0.11.1|  0.9.0|   |default
+| pronto-rubocop | 0.11.1|  0.9.1|   |default
 | rails-html-sanitizer | 1.4.2|  1.3.0|
 | rspec-core | 3.10.1|  3.5.4|
 | rspec-expectations | 3.10.1|  3.5.0|
