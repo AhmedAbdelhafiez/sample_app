@@ -274,7 +274,7 @@
 | timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development, staging, qa
 | tins | 1.29.1|  1.7.0|
 | trollop | 2.9.10|  2.1.2|
-| tzinfo-data | 1.2021.5|  1.2018.4|  default
+| tzinfo-data | 1.2021.5|  1.2018.4|    | default
 | uuidtools | 2.2.0|  2.1.5|  ~> 2.1, >= 2.1.5|  default
 | will_paginate | 3.3.1|  3.0.7|  ~> 3.0, >= 3.0.7|  default
 | yard | 0.9.27|  0.8.5.2|  ~> 0.8.5.2|  development
