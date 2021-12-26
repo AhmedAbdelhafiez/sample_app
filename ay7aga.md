@@ -40,9 +40,9 @@
 | i18n | 1.8.11|  0.9.5|
 | json | 2.6.1|  1.8.6|
 | libxml-ruby | 3.2.1|  2.8.0|  ~> 2.8|  default
-| net-sftp | 3.0.0|  2.1.2|  ~> 2.1| >= 2.1.2|  default
+| net-sftp | 3.0.0|  2.1.2|  ~> 2.1 >= 2.1.2|  default
 | net-ssh | 6.1.0|  3.0.1|
-| newrelic_rpm | 8.2.0|  3.14.0.305|  ~> 3.14| >= 3.14.0.305|  default
+| newrelic_rpm | 8.2.0|  3.14.0.305  ~> 3.14| >= 3.14.0.305|  default
 | parser | 3.0.3.2|  2.5.1.2|
 | pg | 1.2.3|  0.15.1|  ~> 0.15.1|  default
 | phobos | 2.1.0|  1.9.0|
@@ -60,10 +60,10 @@
 | redcarpet | 3.5.1|  2.2.2|  ~> 2.2.2|  development
 | regexp_parser | 2.2.0|  1.8.2|
 | responders | 3.0.1|  2.1.0|  ~> 2.1|  default
-| rspec-rails | 5.0.2|  3.5.2|  ~> 3.5|  development| test
+| rspec-rails | 5.0.2|  3.5.2|  ~> 3.5|  development, test
 | rubocop | 1.24.0|  0.58.2|
 | ruby-kafka | 1.4.0|  0.7.10|
-| rubyzip | 2.3.2|  1.3.0|  ~> 1.1| >= 1.1.7|  default
+| rubyzip | 2.3.2|  1.3.0|  ~> 1.1 >= 1.1.7|  default
 | rugged | 1.3.0|  0.27.2|
 | sass-rails | 6.0.0|  5.0.4|  ~> 5.0.4|  default
 | selenium-webdriver | 4.1.0|  3.6.0|  = 3.6|  default
