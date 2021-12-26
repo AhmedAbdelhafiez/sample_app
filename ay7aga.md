@@ -19,7 +19,7 @@
 | avro_turf | 1.5.0|  0.11.0|
 | better_errors | 2.9.1|  1.0.1|  ~> 1.0.1|  development
 | binding_of_caller | 1.0.0|  0.7.2|  ~> 0.7.2|  development
-| byebug | 11.1.3|  9.0.6|  ~> 9.0.6|  development| test
+| byebug | 11.1.3|  9.0.6|  ~> 9.0.6|  development, test
 | childprocess | 4.1.0|  0.9.0|
 | coffee-rails | 5.0.0|  4.1.0|  ~> 4.1.0|  default
 | data_migrate | 3.0.1|  1.2.1 a0dd2bb|  default
