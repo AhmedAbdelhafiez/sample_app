@@ -3,7 +3,7 @@
 ## December 2021
 
 ### Bundle Major Versions Outdated
-| Package | Current | Wanted |  Latest | Location| Older than 1 year|
+| Gem | Current | Latest |  Requested | Groups | Older than 1 year
 |---|:----------:|:-------:|:-------:|:-------:|:-------:|
 | CFPropertyList | 3.0.5|  2.3.2|
 | actionmailer | 7.0.0|  4.2.8|
