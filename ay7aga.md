@@ -14,7 +14,7 @@
 | activerecord | 7.0.0|  4.2.8|
 | activerecord-session_store | 2.0.0|  0.1.2|  = 0.1.2|  default
 | activesupport | 7.0.0|  4.2.8|
-| acts_as_list | 1.0.4|  0.7.2|  default
+| acts_as_list | 1.0.4|  0.7.2|     |default
 | arel | 9.0.0|  6.0.4|
 | avro_turf | 1.5.0|  0.11.0|
 | better_errors | 2.9.1|  1.0.1|  ~> 1.0.1|  development
@@ -284,7 +284,7 @@
 | timecop | 0.9.4|  0.5.9.2|  ~> 0.5.8|  development, test
 | tins | 1.29.1|  1.7.0|
 | trollop | 2.9.10|  2.1.2|
-| tzinfo-data | 1.2021.5|  1.2018.3|  default
+| tzinfo-data | 1.2021.5|  1.2018.3|  |default
 | uuidtools | 2.2.0|  2.1.5|  ~> 2.1, >= 2.1.5|  default
 | will_paginate | 3.3.1|  3.0.7|  ~> 3.0, >= 3.0.7|  default
 | yard | 0.9.27|  0.8.5.2|  ~> 0.8.5.2|  development
