@@ -20,7 +20,7 @@
 | binding_of_caller | 1.0.0|  0.7.2|  ~> 0.7.2|  development, staging, qa|
 | byebug | 11.1.3|  9.0.6|  ~> 9.0.6|  development, staging, qa|
 | coffee-rails | 5.0.0|  4.1.0|  ~> 4.1.0|  default
-| data_migrate | 3.0.1|  1.2.1 a0dd2bb|  default
+| data_migrate | 3.0.1|  1.2.1 a0dd2bb|    |default
 | debug_inspector | 1.1.0|  0.0.2|
 | faraday | 1.8.0|  0.15.2|
 | fog | 2.2.0|  1.38.0|  ~> 1.38|  default
@@ -37,9 +37,9 @@
 | i18n | 1.8.11|  0.9.5|
 | json | 2.6.1|  1.8.6|
 | libxml-ruby | 3.2.1|  2.8.0|  ~> 2.8|  default
-| net-sftp | 3.0.0|  2.1.2|  ~> 2.1| >= 2.1.2|  default
+| net-sftp | 3.0.0|  2.1.2|  ~> 2.1 >= 2.1.2|  default
 | net-ssh | 6.1.0|  3.0.1|
-| newrelic_rpm | 8.2.0|  3.14.0.305|  ~> 3.14| >= 3.14.0.305|  default
+| newrelic_rpm | 8.2.0|  3.14.0.305|  ~> 3.14 >= 3.14.0.305|  default
 | parser | 3.0.3.2|  2.5.1.2|
 | pg | 1.2.3|  0.15.1|  ~> 0.15.1|  default
 | power_assert | 2.0.1|  0.2.6|
@@ -55,16 +55,16 @@
 | rbvmomi | 3.0.0|  1.8.2|
 | redcarpet | 3.5.1|  2.2.2|  ~> 2.2.2|  development
 | responders | 3.0.1|  2.1.0|  ~> 2.1|  default
-| rspec-rails | 5.0.2|  3.5.2|  ~> 3.5|  development| staging| qa
+| rspec-rails | 5.0.2|  3.5.2|  ~> 3.5|  development, staging, qa
 | rubocop | 1.24.0|  0.58.2|
-| rubyzip | 2.3.2|  1.1.7|  ~> 1.1| >= 1.1.7|  default
+| rubyzip | 2.3.2|  1.1.7|  ~> 1.1 >= 1.1.7|  default
 | rugged | 1.3.0|  0.27.4|
 | sass-rails | 6.0.0|  5.0.4|  ~> 5.0.4|  default
 | sprockets | 4.0.2|  3.7.2|
 | terminal-table | 3.0.2|  1.8.0|
 | thor | 1.1.0|  0.19.4|
 | tzinfo | 2.0.4|  1.2.8|
-| uglifier | 4.2.0|  2.7.2|  default
+| uglifier | 4.2.0|  2.7.2|  | default
 | unicode-display_width | 2.1.0|  1.4.0|
 
 ### Bundle Minor Versions Outdated
